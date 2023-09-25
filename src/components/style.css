@@ -30,7 +30,7 @@
 
 .navbar {
   position: absolute;
-  background-color:var(--whiteB);
+  /* background-color:var(--whiteB); */
   width: 100%;
   height: 60px;
   left: 0px;
@@ -48,16 +48,39 @@
   font-size: 1.3rem;
   right: 15px;
   top: 0.9rem;
-  /* border-radius: 24px; */
+  border-radius: 24px;
   transition: all 0.3s ease-in-out;
   font-family: var(--body-font);
-  /* color: rgb(244, 243, 243);
-  background: #FFCACC; */
+  color: rgb(244, 243, 243);
+  background: #4e271ad7;
   cursor: pointer;
 }
 
 .loginicon:hover{
-  color: white;
+  color: var(--blue);
+}
+
+.midloginicon:hover{
+  color: var(--blue);
+}
+
+.midloginicon {
+  position: fixed;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 200px;
+  font-size: 1.9rem;
+  left: 250px;
+  top: 300px;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+  font-family: var(--body-font);
+  color: rgb(244, 243, 243);
+  background: #4e271ad7;
+  cursor: pointer;
 }
 
 .login-form{
@@ -78,7 +101,7 @@
 
 .login__label {
   display: block;
-  color: var(--title-color);
+  color: var(--orange);
   margin-bottom: 0.25rem;
 }
 
