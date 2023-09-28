@@ -37,6 +37,25 @@
   top: 0px;
 }
 
+.logouticon {
+  position: fixed;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 100px;
+  font-size: 1.3rem;
+  right: 130px;
+  top: 0.9rem;
+  border-radius: 24px;
+  transition: all 0.3s ease-in-out;
+  font-family: var(--body-font);
+  color: rgb(244, 243, 243);
+  background: #4e271ad7;
+  cursor: pointer;
+}
+
 .loginicon {
   position: fixed;
   text-decoration: none;
