@@ -1,30 +1,11 @@
-// import React, { useRef as UseRef }, {useState} from "react";
+
 import React, {useState} from "react";
-import { firestore } from "./firebase";
-import { addDoc,collection } from "@firebase/firestore";
 import Grouppic from './img/Group.png';
 
 const LoginForm = ({ isShowLogin }) => {
   console.log(Grouppic);
-  // const messageRef = UseRef();
-  // const ref = collection(firestore,"message");
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-
-  const handleSave = async (e) => {
-    // e.preventDefault();
-    // console.log(messageRef.current.value);
-
-    // let data = {
-    //     message: messageRef.current.value,
-    // };
-
-  //   try {
-  //       addDoc(ref, data);
-  //   } catch (e) {
-  //       console.log(e);
-  //   }
-  };
 
   function validateForm() {
     return username.length > 0 && password.length > 0;
@@ -51,7 +32,7 @@ const LoginForm = ({ isShowLogin }) => {
       
               <div className="login__content">
               
-                <form className="login__form" onSubmit={handleSave}>
+                <form className="login__form">
                 
                   <div className="login__inputs">
                     <h1>It's Good To Login !</h1>

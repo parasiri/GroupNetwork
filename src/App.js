@@ -3,8 +3,6 @@ import "./App.css";
 import React, { useState } from "react";
 import LoginForm from "./components/LoginForm";
 import NavBar from "./components/Navbar";
-import home from "./components/page/home";
-
 
 
 export default function App() {
