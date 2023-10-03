@@ -1,6 +1,6 @@
 
 import React, {useState} from "react";
-import Grouppic from './img/Group.png';
+import Grouppic from './img/WallCream.png';
 
 const LoginForm = ({ isShowLogin }) => {
   console.log(Grouppic);
@@ -18,12 +18,7 @@ const LoginForm = ({ isShowLogin }) => {
     <div className="page">
       <img className="pic" src={Grouppic}></img>
     </div>
-    <div className="headfont">
-      <h1>PERFECT PPAP</h1>
-    </div>
-    <div className="titlefont">
-      <p>A space to embrace everyone's feelings and stories</p>
-    </div>
+    
   
     <div className={`${isShowLogin ? "active" : ""} show`}>
       

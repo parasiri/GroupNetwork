@@ -7,13 +7,16 @@
   --first-color: #f2e1e1;
   --second-color: #FFCACC;
   --title-color: rgb(219, 215, 215);
-  --text-color: #4e271ad7;
+  --text-color: #c83557;
   --highligth-color: #FFCACC;
-  --body-color: #FFFFFF;
+  --body-color: #ffced1;
   --Green:#28c59e;
   --orange:#d64b40;
   --whiteB:#e8cecb;
   --blue:#95bae3;
+  --pinkB:#c83557;
+  --pinkO:#ffced1;
+
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
   --body-font:'Mukta', sans-serif; 
@@ -216,21 +219,14 @@ input:focus {
 .pic {
   position: relative;
   top: 50px;
-  left: 270px;
-  width: 400px;
+  width: 800px;
   height: min-content;
 }
 
 .headfont {
   position: relative;
   left: -160px;
-  top: -90px;
+  top: -190px;
   font-size: 40px;
 }
 
-.titlefont {
-  position: relative;
-  left: -235px;
-  top: -110px;
-  font-size: 15px;
-}
